@@ -8,7 +8,7 @@ view: users {
       SELECT 4 as ID, 'David' as Name, '7/1/1977' as DOB, 'Male' as Gender UNION ALL
       SELECT 5 as ID, 'Eden' as Name, '12/22/2002' as DOB, 'Female' as Gender ;;
    } 
-  dimension: id {  sql: ${TABLE}.id ;; }
+  dimension: id {  sql: ${TABLE}.id ;; primary_key: yes }
   dimension: dob {  sql: ${TABLE}.dob ;; }
   dimension: gender {  sql: ${TABLE}.gender ;; } 
 }
