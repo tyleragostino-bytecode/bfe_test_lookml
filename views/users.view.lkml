@@ -11,7 +11,7 @@ view: users {
   dimension: id {
     sql: ${TABLE}.id ;;
     primary_key: yes
-    description: "" 
+    description: "This is another test" 
   }
   dimension: dob {  sql: ${TABLE}.dob ;; }
   dimension: gender {  sql: ${TABLE}.gender ;; } 
