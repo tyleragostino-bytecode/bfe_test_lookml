@@ -10,8 +10,8 @@ view: users {
    } 
   dimension: id {
     sql: ${TABLE}.id ;;
-    primary_key: yes
-    description: "This is a test two" 
+    primary_key: no
+    description: "" 
   }
   dimension: dob {  sql: ${TABLE}.dob ;; }
   dimension: gender {  sql: ${TABLE}.gender ;; } 
